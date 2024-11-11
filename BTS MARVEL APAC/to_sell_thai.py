@@ -11,7 +11,7 @@ import pytz
 #Establishing Connection
 conn=ps.connect(database='dgtldbdev', \
                           host='digital-aws-rds-dev-01.celzhyirfdme.ap-south-1.rds.amazonaws.com', \
-                              port=5432,user='dgtldevdb',password='Indorama01')
+                              port=5432,user='dgtldevdb',password='xyz')
 conn.autocommit=True
 cur=conn.cursor()
 
