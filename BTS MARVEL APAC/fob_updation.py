@@ -11,7 +11,7 @@ conn = ps.connect(
     host="digital-aws-rds-dev-01.celzhyirfdme.ap-south-1.rds.amazonaws.com",
     database="dgtldbdev",
     user="dgtldevdb",
-    password="Indorama01")
+    password="xyz")
 
 conn.autocommit=True
 cur=conn.cursor()
