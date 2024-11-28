@@ -8,7 +8,7 @@ import psycopg2 as ps
  
 conn=ps.connect(database='dgtldbdev',\
 host="digital-aws-rds-dev-01.celzhyirfdme.ap-south-1.rds.amazonaws.com",\
-    port=5432,user="dgtldevdb",password="Indorama01")
+    port=5432,user="dg",password="abjaskahksj")
 cursor=conn.cursor()
 conn.autocommit=True
  
